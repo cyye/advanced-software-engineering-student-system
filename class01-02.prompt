@@ -1,0 +1,28 @@
+现在仍然不要修改代码。
+
+请为“学生注册”功能制定Implementation Plan。
+
+要求考虑：
+
+1. POST /students API；
+2. StudentCreate schema；
+3. student_id不能为空；
+4. email不能为空；
+5. student_id不能重复；
+6. email不能重复；
+7. 正常注册返回合理HTTP状态码；
+8. 重复注册返回合理错误；
+9. 必须增加pytest测试；
+10. 不能破坏现有三个测试；
+11. 遵循AGENTS.md；
+12. 不进行无关重构。
+
+请列出：
+
+Files to Modify
+Implementation Steps
+Tests to Add
+Potential Risks
+Verification Plan
+
+暂时不要修改任何文件。

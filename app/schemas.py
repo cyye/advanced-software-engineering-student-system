@@ -1,6 +1,18 @@
 from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict
+from pydantic import constr
+
+
+NonEmptyString = constr(strip_whitespace=True, min_length=1)
+
+
+class StudentCreate(BaseModel):
+    student_id: NonEmptyString
+    name: NonEmptyString
+    email: NonEmptyString
+    major: NonEmptyString
+    grade: int
 
 
 class StudentResponse(BaseModel):

@@ -23,6 +23,14 @@ def list_students(db: Session = Depends(get_db)) -> list[schemas.StudentResponse
     return services.get_all_students(db)
 
 
+@app.post("/students", response_model=schemas.StudentResponse, status_code=201)
+def create_student(student_data: schemas.StudentCreate, db: Session = Depends(get_db)) -> schemas.StudentResponse:
+    try:
+        return services.create_student(db, student_data)
+    except services.DuplicateStudentError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+
+
 @app.get("/students/{student_id}", response_model=schemas.StudentResponse)
 def get_student(student_id: str, db: Session = Depends(get_db)) -> schemas.StudentResponse:
     student = services.get_student_by_id(db, student_id)
