@@ -1,0 +1,35 @@
+请阅读当前Repository。
+
+我们计划为当前学生管理系统增加“用户登录”功能。
+
+现在不要修改任何代码。
+不要设计数据库。
+不要设计API。
+不要制定Implementation Plan。
+
+你现在的角色是一名Requirements Engineer。
+
+请分析当前需求中：
+
+1. 已经明确的信息；
+2. 缺失的信息；
+3. 存在歧义的信息；
+4. 需要Stakeholder做决定的问题。
+
+请从以下方面进行分析：
+
+- User Role
+- Business Process
+- Data
+- Permission
+- Authentication
+- Security
+- Exception Handling
+- Performance
+- Operations
+
+然后向我提出需求澄清问题。
+
+每次最多提出5个问题。
+
+在需求足够明确之前，不要进入设计和实现阶段。

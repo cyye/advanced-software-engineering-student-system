@@ -1,0 +1,27 @@
+请将用户登录功能的Acceptance Criteria
+改写成可直接用于测试设计的形式。
+
+统一使用Given / When / Then。
+
+保存到：
+
+docs/requirements/acceptance-criteria.md
+
+每条Acceptance Criteria包含：
+
+- ID
+- Related Requirement
+- Given
+- When
+- Then
+
+必须覆盖：
+
+1. 正确账号密码；
+2. 密码错误；
+3. 用户不存在；
+4. 缺少必要参数；
+5. Token生成；
+6. Token失效后的访问行为。
+
+不要编写测试代码。

@@ -1,0 +1,25 @@
+基于已经确认的
+docs/requirements/login-requirements.md
+
+生成用户登录功能的User Stories。
+
+保存到：
+
+docs/requirements/user-stories.md
+
+每个User Story包含：
+
+- ID
+- Role
+- Goal
+- Benefit
+- Priority
+- Related Functional Requirements
+
+使用格式：
+
+As a <role>,
+I want <goal>,
+so that <benefit>.
+
+不要引入Specification中不存在的新需求。

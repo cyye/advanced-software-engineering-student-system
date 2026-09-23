@@ -1,0 +1,11 @@
+请阅读：
+
+docs/requirements/login-requirements.md
+docs/requirements/user-stories.md
+docs/requirements/acceptance-criteria.md
+
+严格基于上述Specification，
+为用户登录功能制定Implementation Plan。
+
+不得自行增加需求。
+暂时不要修改代码。

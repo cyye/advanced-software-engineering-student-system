@@ -1,0 +1,32 @@
+根据刚才已经由Stakeholder确认的需求，
+为“用户登录”功能生成正式的软件需求Specification。
+
+保存为：
+
+docs/requirements/login-requirements.md
+
+要求包含：
+
+1. Background
+2. Scope
+3. Actors
+4. Functional Requirements
+5. Non-functional Requirements
+6. Business Rules
+7. Data Requirements
+8. Security Requirements
+9. Error Handling
+10. Out of Scope
+11. Open Questions
+
+Functional Requirements统一使用：
+FR-LOGIN-001
+FR-LOGIN-002
+...
+
+要求：
+
+- 不得添加未经确认的新业务需求；
+- 未确认的信息必须放入Open Questions；
+- 每个Requirement应尽可能明确、可验证；
+- 不要修改任何应用代码。
